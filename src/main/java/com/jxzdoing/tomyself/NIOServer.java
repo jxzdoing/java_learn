@@ -28,7 +28,7 @@ public class NIOServer {
                 .childOption(ChannelOption.SO_REUSEADDR,true)//允许重复使用本地地址
                 .childOption(ChannelOption.SO_RCVBUF,32*1024)//接收缓冲区的大小
                 .childOption(ChannelOption.SO_SNDBUF,32*1024)//发送缓冲区的大小
-                .childOption(EpollChannelOption.SO_REUSEPORT,true)//允许重复使用本地断开
+                .childOption(EpollChannelOption.SO_REUSEPORT,true)//允许重复使用本地端口
                 .childOption(ChannelOption.ALLOCATOR, PooledByteBufAllocator.DEFAULT);//缓冲区
 
         serverBootstrap.group(boss,worker).channel(NioServerSocketChannel.class)
