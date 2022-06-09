@@ -12,3 +12,6 @@ com.jxzdoing.fourthweek
 
 # 第五周作业目录
 com.jxzdoing.fifthweek
+
+# 第六周作业目录
+com.jxzdoing.sixweek
