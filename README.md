@@ -21,3 +21,6 @@ com.jxzdoing.seventhweek
 
 # 第八周作业目录
 com.jxzdoing.eighthweek
+
+# 第九周作业目录
+com.jxzdoing.ninthweek
