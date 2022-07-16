@@ -12,6 +12,7 @@
 <!--        <module>starter</module>-->
 <!--        <module>mystarter</module>-->
 <!--        <module>mysql</module>-->
+        <module>src/main/java/com/jxzdoing/elevenweek</module>
     </modules>
 
     <name>java_learn</name>
